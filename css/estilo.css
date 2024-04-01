@@ -1,3 +1,22 @@
+
 #cabecalho {
-background-color: blue ;
+background-color: blu;
 }
+
+@font-face {
+    font-family: minhaFonte;
+    src: url(../AbhayaLibre-Bold.ttf);
+}
+
+h1 {
+    font-family: minhaFonte;
+}
+
+#menu {
+    font-weight: bold;
+}
+.menu ul {
+
+    font-weight: bold;
+}
+
