@@ -31,3 +31,8 @@ h1 {
 #conteudo {
 line-height: 1.5 ;
 }
+
+#contact {
+    border: 1px solid gray;
+    padding: 10px;
+}
