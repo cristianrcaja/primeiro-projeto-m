@@ -1,6 +1,36 @@
+.link {
+    color: #318021;
+}
 
-#cabecalho {
-background-color: ble;
+ul .link {
+    color: #e8240e;
+    /* border: 2px solid #e8240e; */
+    display: inline;
+    margin: 0 3%;
+
+    /* Nesting links */
+    a{
+        text-decoration: none;
+        color: #e8240e;
+    }
+
+}
+
+#menu ul{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* ID */
+#container {
+    width: 80%;
+    height: 100%;
+    border: 2px solid #000;
+    margin: 20px auto;
+}
+
+header{
+    background: blue;
 }
 
 @font-face {
@@ -8,46 +38,31 @@ background-color: ble;
     src: url(../AbhayaLibre-Bold.ttf);
 }
 
-h1 {
+h1, h2 {
     font-family: minhaFonte;
 }
-
-#menu {
-    font-weight: bold;
-    
-}
-.menu ul  {
-
+.menu{
     font-weight: bold;
 }
 
+#conteudo{
+    line-height: 1.5;
+    }
 
-
-#container {
-
-    margin: 20px
-}
-
-#conteudo {
-line-height: 1.5 ;
-}
-
-#contact {
+form{
     border: 1px solid gray;
     padding: 10px;
 }
 
-p {
-  color: green;
+p { 
+    color: #176707;
 }
 
-#contact button {
-background-color: blue;
-color: white;
-
+button{
+    background-color: blue;
+    color: rgb(255, 255, 255);
 }
-footer {
-        
+
+footer{
     border-top:2px solid #e8240e;
-     
     }
