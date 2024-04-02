@@ -1,3 +1,22 @@
+
+/* Quais tags podem ser seletores CSS3: */
+/* 
+    - Tag
+    - Class
+    - ID
+    - Atributo
+    - Pseudo-classe
+    - Pseudo-elemento
+*/
+
+
+
+header{
+    background: rgba(5, 182, 247, 0.786);
+}
+
+
+/* Class */
 .link {
     color: #318021;
 }
@@ -11,7 +30,7 @@ ul .link {
     /* Nesting links */
     a{
         text-decoration: none;
-        color: #e8240e;
+        color: #d92525;
     }
 
 }
@@ -25,20 +44,19 @@ ul .link {
 #container {
     width: 80%;
     height: 100%;
-    border: 2px solid #000;
-    margin: 20px auto;
+    border: 2px solid #000000;
+    margin: 0 auto;
+    padding: 20px
 }
 
-header{
-    background: blue;
-}
+
 
 @font-face {
     font-family: minhaFonte;
     src: url(../AbhayaLibre-Bold.ttf);
 }
 
-h1, h2 {
+h1, h2 { 
     font-family: minhaFonte;
 }
 .menu{
@@ -49,20 +67,19 @@ h1, h2 {
     line-height: 1.5;
     }
 
-form{
-    border: 1px solid gray;
-    padding: 10px;
-}
-
-p { 
-    color: #176707;
+    form{
+        border: 1px solid gray;
+        padding: 10px;
+    }
+p{
+    color: green;
 }
 
 button{
     background-color: blue;
     color: rgb(255, 255, 255);
 }
-
 footer{
     border-top:2px solid #e8240e;
     }
+
