@@ -58,6 +58,7 @@ ul .link {
 
 h1, h2 { 
     font-family: minhaFonte;
+    text-align: center
 }
 .menu{
     font-weight: bold;
