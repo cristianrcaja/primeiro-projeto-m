@@ -12,7 +12,9 @@
 /* Tag */
 
 
-
+header{
+    background: rgba(5, 182, 247, 0.786);
+}
 
 /* Class */
 .link {
